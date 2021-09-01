@@ -24,7 +24,7 @@ class hash_chain {
     };
 
     std::vector<std::shared_ptr<Node>> head;  ///< array of nodes
-    int _mod;                                        ///< modulus of the class
+    int _mod;                                 ///< modulus of the class
 
  public:
     /**
